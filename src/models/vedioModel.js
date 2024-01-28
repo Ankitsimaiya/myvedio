@@ -37,4 +37,4 @@ const vedioSchema = new Schema({
 
 vedioSchema.plugin(mongooseAggregatePaginate)
 
-export const Vedio = new mongoose.model("Vedio", vedioSchema)
+export const Video = new mongoose.model("Video", vedioSchema)
